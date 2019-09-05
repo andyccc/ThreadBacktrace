@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThreadBacktrace_Example' do
+  pod 'ThreadBacktrace', :path => '../'
+
+  target 'ThreadBacktrace_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
